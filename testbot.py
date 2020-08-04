@@ -89,5 +89,4 @@ async def on_command_error(ctx,error):
     if isinstance(error,commands.CommandNotFound):
         await ctx.send("invalid command! Please try again")
 
-#client.run(os.environ.get('MendBot_token'))
-client.run('NzM4NTA4MjUyMTIzMzY1Mzk5.XyM7aA.FfZrijhPah0wVnfvBayqubFXQJE')
+client.run(os.environ.get('MendBot_token'))
